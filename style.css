@@ -1,0 +1,52 @@
+*{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -box-sizing: border-box;
+}
+
+body, html {
+    font-family: Helvetica, Arial, sans-serif;
+    color: #545454;
+    background: #f7f7f7;
+}
+
+#page-wrapper{
+    width: 550px;
+    margin: 2.5em auto;
+    background: #FFF;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    border-radius: 3px;
+}
+
+#new-todo-form{
+    padding: .5em;
+    background: #08c;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+#new-todo {
+    width: 100%;
+    padding: .5em;
+    font-size: 1em;
+    border-radius: 3px;
+    border: 0;
+}
+
+#todo-items{
+    list-style: none;
+    padding: .5em 1em;
+    margin: 0;
+}
+
+#todo-items li{
+    font-size: .9em;
+    padding: .5em;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+    margin: .5em 0;
+}
+
+input[type="checkbox"]{
+    margin-right: 10px;
+}
